@@ -22,7 +22,7 @@ i18n.configure({
 
 /* Ajoute l'objet i18n à l'objet global «res» */
 app.use(i18n.init);
-
+ 
 let db // variable qui contiendra le lien sur la BD
 
 MongoClient.connect('mongodb://127.0.0.1:27017', (err, database) => {
