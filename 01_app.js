@@ -13,7 +13,7 @@ const i18n = require('i18n');
 const cookieParser = require('cookie-parser');
 app.use(cookieParser())
 app.use(express.static('public'));
-
+ 
 i18n.configure({ 
    locales : ['fr', 'en'],
    cookie : 'langueChoisie', 
