@@ -17,7 +17,7 @@ app.use(express.static('public'));
 i18n.configure({ 
    locales : ['fr', 'en'],
    cookie : 'langueChoisie', 
-   directory : __dirname + '/locales' })
+   directory : __dirname + '/locales' })  
 
 
 /* Ajoute l'objet i18n à l'objet global «res» */
